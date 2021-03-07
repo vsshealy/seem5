@@ -1,0 +1,67 @@
+{
+    "name": "theme/seem",
+    "description": "Setup required assets for theme",
+    "type": "wordpress-theme",
+    "minimum-stability": "stable",
+    
+    "authors": [
+        {
+            "name": "Scott Shealy",
+            "email": "scott.shealy@dominionenergy.com"
+        }
+    ],
+
+    "extra": {
+        "installer-paths": {
+            "../../plugins/{$name}/": [
+                "wpackagist-plugin/*",
+                "type:wordpress-plugin"
+            ]
+        }
+    },
+
+    "require": {
+        "wpackagist-plugin/advanced-custom-fields": "*",
+        "wpackagist-plugin/akismet": "*",
+        "wpackagist-plugin/amp": "*",
+        "wpackagist-plugin/analytify-analytics-dashboard-widget": "*",
+        "wpackagist-plugin/antispam-bee": "*",
+        "wpackagist-plugin/better-wp-security": "*",
+        "wpackagist-plugin/classic-editor": "*",
+        "wpackagist-plugin/contact-form-7": "*",
+        "wpackagist-plugin/custom-post-type-permalinks": "*",
+        "wpackagist-plugin/custom-post-type-ui": "*",
+        "wpackagist-plugin/dashboard-welcome-for-elementor": "*",
+        "wpackagist-plugin/easy-wp-smtp": "*",
+        "wpackagist-plugin/elementor": "*",
+        "wpackagist-plugin/ele-custom-skin": "*",
+        "wpackagist-plugin/flamingo": "*",
+        "wpackagist-plugin/google-language-translator": "*",
+        "wpackagist-plugin/health-check": "*",
+        "wpackagist-plugin/hummingbird-performance": "*",
+        "wpackagist-plugin/jetpack": "*",
+        "wpackagist-plugin/php-everywhere": "*",
+        "wpackagist-plugin/post-types-order": "*",
+        "wpackagist-plugin/really-simple-ssl": "*",
+        "wpackagist-plugin/redirection": "*",
+        "wpackagist-plugin/resmushit-image-optimizer": "*",
+        "wpackagist-plugin/seo-by-rank-math": "*",
+        "wpackagist-plugin/svg-support": "*",
+        "wpackagist-plugin/wp-analytify": "*",
+        "wpackagist-plugin/wp-custom-admin-interface": "*",
+        "wpackagist-plugin/wp-nested-pages": "*",
+        "wpackagist-plugin/wp-retina-2x": "*",
+        "wpackagist-plugin/wp-super-cache": "*"
+    },
+
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://wpackagist.org"
+        }
+    ],
+
+    "config": {
+        "secure-http": false
+    }
+}
