@@ -1,4 +1,5 @@
 .DS_Store
+archive
 ftp-sync
 node_modules
 vendor
